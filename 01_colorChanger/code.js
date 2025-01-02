@@ -25,5 +25,35 @@ buttons.forEach((button) => {
     if (e.target.id === "black") {
       body.style.backgroundColor = e.target.id;
     }
+
+    // switch (e.target.id) {
+    //   case "grey":
+    //     body.style.backgroundColor = e.target.id;
+
+    //     break;
+    //   case "white":
+    //     body.style.backgroundColor = e.target.id;
+
+    //     break;
+    //   case "blue":
+    //     body.style.backgroundColor = e.target.id;
+
+    //     break;
+    //   case "yellow":
+    //     body.style.backgroundColor = e.target.id;
+
+    //     break;
+    //   case "red":
+    //     body.style.backgroundColor = e.target.id;
+
+    //     break;
+    //   case "black":
+    //     body.style.backgroundColor = e.target.id;
+
+    //     break;
+
+    //   default:
+    //     break;
+    // }
   });
 });
